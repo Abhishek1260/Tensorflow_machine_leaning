@@ -27,7 +27,7 @@ test_label = to_categorical(test_label)
 val_data = test_data[:8000]
 val_label = test_label[:8000]
 test_data = test_data[8000:]
-test_label = test_label[:8000]
+test_label = test_label[8000:]
 
 # making the model
 model = models.Sequential()
